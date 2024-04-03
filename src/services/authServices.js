@@ -26,7 +26,7 @@ const registerService = async (form) => {
 
 const renovarTokenService = async () => {
   const resp = await axios.get(
-    "https://dwfs23-m3s21-demo-api.onrender.com/auth/validar_usuario",
+    "https://tienda-online-back.onrender.com/productos",
     {
       headers: {
         "x-token": localStorage.getItem("token"),
